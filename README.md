@@ -68,3 +68,11 @@ Customers leaving happens early on because of a rocky onboarding experience, fle
 3. **Tackle the Month 1–6 Tenure Cliff:** Set up direct support for new users during their first 6 months to fix the 53% early drop-off. Push referral perks early on, since getting customers to 2+ referrals creates a solid barrier against leaving.
 4. **Target Month-to-Month Users Near $70–$90:** Spot month-to-month customers before their bills cross the $70–$90 range and offer discounts or perks to switch to 1- or 2-year contracts before higher prices push them out.
 5. **Streamline Payment Channels & Billing:** Discourage paperless billing, troubleshoot failed payment paths for mailed check users, and push automatic credit card billing.
+
+---
+
+## 4. Potential Improvements for the Future
+- **Predictive Churn Modeling:** Train classification models (Logistic Regression, Random Forest, XGBoost) using the high-impact drivers identified in this EDA (contract type, onboarding tenure, fiber add-on depth).
+- **Customer Lifetime Value (CLV) Segmentation:** Build an RFM-style (Recency, Frequency, Monetary) segmentation model to prioritize retention campaigns based on cumulative account value rather than just churn risk.
+- **A/B Testing Retention Strategies:** Design controlled experiments to test whether auto-bundling Online Security into entry Fiber plans moves the needle on early churn.
+- **Billing Friction Deep Dive:** Analyze user interaction and billing logs to uncover the root technical cause behind the high churn spike seen in paperless accounts.
